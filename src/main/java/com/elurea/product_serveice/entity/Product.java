@@ -25,7 +25,7 @@ public class Product {
 
     private String thumbnail;
 
-    @Column(nullable = false)
+    @Column(nullable = false, unique = true)
     private String slug;
 
     @CreationTimestamp
