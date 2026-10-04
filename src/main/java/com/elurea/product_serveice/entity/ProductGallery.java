@@ -11,6 +11,7 @@ public class ProductGallery {
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
 
+    @Column(nullable = false)
     private String productId;
 
     private String url;
